@@ -1,0 +1,52 @@
+
+
+<div class="container-fluid page-body-wrapper">
+    <div class="main-panel">
+  <div class="row mlr">
+    <div class="col-md-3 col-sm-9 rightside resize_div">
+        <rv-sidebar ></rv-sidebar>
+
+    </div>
+  <div class="col-md-9 col-sm-9 rightside resize_div">
+    <form  (ngSubmit)="onSubmit()"  [formGroup]="templateForm">
+
+        <div  class="add-header" style="">
+            <h1>Add This Header</h1>
+        <p><textarea class="form-control" id="addheader" formControlName="addheader" rows="5" col="5" style="width: 50%; margin: auto;">Add Header</textarea></p>
+        <button type="submit" class="btn btn-secondary">Add</button>
+         </div>
+
+         <div class="add-logo" style="">
+            <h1>Add This Logo</h1>
+        <p class="text-center" style="padding-bottom:0px; margin-bottom:0px;"><input type="file" class="form-control-file" id="logo" formControlName="logo" style="width: 230px; margin: auto;"></p>
+        <button type="submit" class="btn btn-secondary">Add</button>
+       </div>
+
+       <div class="add-text" style="">
+          <h1>Add This Text</h1>
+          <p><textarea class="form-control" id="addtext" formControlName="addtext" rows="5" col="5" style="width: 50%; margin: auto;">Add Text</textarea></p>
+          <button type="button" class="btn btn-secondary">Add</button>
+         </div>
+
+         <div class="add-background" style="">
+            <h1>Add This background Image</h1>
+          <p class="text-center" style="padding-bottom:0px; margin-bottom:0px;"><input type="file" class="form-control-file" id="addbg" formControlName="addbg" style="width: 230px; margin: auto;"></p>
+          <button type="button" class="btn btn-secondary">Add</button>
+       </div>
+
+       <div class="add-offer" style="">
+          <h1>Add This Offer</h1>
+        <p><textarea class="form-control" id="addoffer" formControlName="addoffer" rows="5" col="5" style="width: 50%; margin: auto;">Add Offer</textarea></p>
+      <button type="button" class="btn btn-secondary">Add</button>
+     </div>
+    </form>
+      <!-- <div [innerHtml]="template.html"></div> -->
+      <rv-template-a *ngIf="false"></rv-template-a>
+
+    </div>
+    <div class="col-md-12 col-lg-12 createbox" style="background-color:#fff; display:none;">box large</div>
+  </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- main-panel ends -->
+  </div>

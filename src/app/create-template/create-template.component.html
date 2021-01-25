@@ -1,0 +1,24 @@
+<div class="container-fluid page-body-wrapper">
+  <div class="main-panel">
+<div class="row mlr">
+
+<div class="col-md-12 col-sm-12 rightside resize_div">
+
+<div class="row">
+    <div class="col-md-4 col-sm-4" id="{{template.id}}" *ngFor="let template of templateData">
+        <a (click)="selectTemplate(template)">
+           <div class="create-template1">
+         <img src="{{template.image}}">
+         <p><button type="button" class="btn btn-primary" (click)="selectTemplate(template)">Select</button><span>{{template.name}}</span></p>
+        </div>
+        </a>
+        </div>
+</div>
+
+  </div>
+  <div class="col-md-12 col-lg-12 createbox" style="background-color:#fff; display:none;">box large</div>
+</div>
+    <!-- content-wrapper ends -->
+  </div>
+  <!-- main-panel ends -->
+</div>

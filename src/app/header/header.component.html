@@ -1,0 +1,124 @@
+<div class="horizontal-menu">
+  <nav class="navbar top-navbar col-lg-12 col-12 p-0">
+    <div class="container">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo" href="index.html">Logo</a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown mr-4">
+            <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
+             <i class="fa fa-bell" aria-hidden="true"></i>
+      <span class="count"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+              <a class="dropdown-item preview-item" href="notification.html">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-success">
+                    <i class="mdi mdi-information mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Just now
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item" href="notification.html">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-warning">
+                    <i class="mdi mdi-settings mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Settings</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item" href="notification.html">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-info">
+                    <i class="mdi mdi-account-box mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    2 days ago
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-profile dropdown mr-0 mr-sm-2">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <span class="nav-profile-name">Admin <i class="fa fa-angle-down" aria-hidden="true"></i></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+               <i class="fa fa-cog" aria-hidden="true"></i>
+                Settings
+              </a>
+              <a class="dropdown-item">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <nav class="bottom-navbar">
+    <div class="container">
+      <ul class="nav page-navigation" >
+        <li class="nav-item " routerLinkActive="active">
+          <a class="nav-link" routerLink="dashboard"  >
+            <p><i class="fa fa-tachometer" aria-hidden="true"></i></p>
+            <span class="menu-title">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="create-template">
+              <p><i class="fa fa-file-text-o"></i></p>
+            <span class="menu-title">Create Template</span>
+          </a>
+        </li>
+        <li class="nav-item mega-menu">
+          <a href="review-setting.html" class="nav-link">
+             <p><i class="fa fa-cog"></i></p>
+            <span class="menu-title">Review Settings</span>
+          </a>
+
+        </li>
+        <li class="nav-item">
+          <a href="email-settings.html" class="nav-link">
+            <p><i class="fa fa-envelope"></i></p>
+            <span class="menu-title">Email Settings</span>
+    </a>
+        </li>
+        <li class="nav-item mega-menu">
+          <a href="#" class="nav-link">
+            <p><i class="fa fa-search"></i></p>
+            <span class="menu-title">Template Preview</span>
+    </a>
+        </li>
+        <li class="nav-item mega-menu">
+          <a href="customer-management.html" class="nav-link">
+              <p><i class="fa fa-envelope"></i></p>
+            <span class="menu-title">Customer Management</span>
+           </a>
+
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,39 @@
+
+.leftside {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3e29b2+0,be68d5+100 */
+background: #3e29b2; /* Old browsers */
+background: -moz-linear-gradient(top,  #3e29b2 0%, #be68d5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3e29b2 0%,#be68d5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3e29b2 0%,#be68d5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e29b2', endColorstr='#be68d5',GradientType=0 ); /* IE6-9 */
+	/* padding-top: 13px; */
+	padding: 0px 0 57px 0;
+}
+.leftside ul {
+	margin: 0px;
+	padding: 0px;
+}
+.leftside ul li {
+	list-style: none;
+	line-height: 89px;
+	font-size: 14px;
+	border-bottom: 1px solid #dbd1d1;
+	padding-left: 30px;
+}
+.leftside ul li a {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+}
+.leftside ul li .fa {
+	padding-right: 10px;
+	font-size: 18px;
+}
+.leftside ul li:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.leftside ul li:hover {
+	background: #2c1b9b;
+}

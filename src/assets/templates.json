@@ -1,0 +1,27 @@
+
+  [
+    {
+        "template_id": "template-1",
+        "template_name": "Template Red",
+        "template_owner_id`": "1",
+        "template_created_on": "23-01-2012",
+        "html": "<div class=\"ad_box\"><img class=\"banner\" src=\"../assets/images/close.png\" alt=\"\" \//> <h3 >Items <\/h3> <br \/> <ul id=\"items\" \/><\/div>",
+        "image":" ../assets/images/template2.jpg"
+    },
+    {
+      "template_id": "template-2",
+      "template_name": "Template Red",
+      "template_owner_id`": "2",
+      "template_created_on": "23-01-2012",
+      "html": "<div class=\"ad_box\"><img class=\"banner\" src=\"../assets/images/close.png\" alt=\"\" \//> <h3 >Items <\/h3> <br \/> <ul id=\"items\" \/><\/div>",
+      "image":" ../assets/images/template2.jpg"
+  },
+  {
+    "template_id": "template-3",
+    "template_name": "Template Red",
+    "template_owner_id`": "3",
+    "template_created_on": "23-01-2012",
+    "html": "<div class=\"ad_box\"><img class=\"banner\" src=\"../assets/images/close.png\" alt=\"\" \//> <h3 >Items <\/h3> <br \/> <ul id=\"items\" \/><\/div>",
+    "image":" ../assets/images/template2.jpg"
+}
+  ]

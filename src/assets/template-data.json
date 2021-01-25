@@ -1,0 +1,43 @@
+[
+  {
+    "template-1": {
+
+      "html": "<div class=\"ad_box\"><img class=\"banner\" src=\"../assets/images/close.png\" alt=\"\" \//> <h3 >Items <\/h3> <br \/> <ul id=\"items\" \/><\/div>",
+
+      "item_id": "template_1",
+
+      "click_action": "/logAction?id=1234&amp;type=click&amp;info=blah",
+
+      "icon": "http://my.images.com/icons/icon.png"
+
+    }
+  },
+  {
+    "template-2": {
+
+      "html": "<div class=\"ad_box\"><img class=\"banner\" src=\"../assets/images/close.png\" alt=\"\" \//> <h3 >Items 2 <\/h3> <br \/> <ul id=\"items\" \/><\/div>",
+
+      "item_id": "template_2",
+
+      "click_action": "/logAction?id=1234&amp;type=click&amp;info=blah",
+
+      "icon": "http://my.images.com/icons/icon.png"
+
+    }
+
+  },
+  {
+    "template-3": {
+
+      "html": "<div class=\"music_box\"><img class=\"banner\" src=\"some_ad.png\" alt=\"\" \/> <h3 >Items < \/h3> <br \/> <ul id=\"items\" \/><\/div>",
+
+      "item_id": "template_3",
+
+      "click_action": "/logAction?id=1234&amp;type=click&amp;info=blah",
+
+      "icon": "http://my.images.com/icons/icon.png"
+    }
+  }
+]
+
+

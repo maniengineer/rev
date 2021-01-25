@@ -1,0 +1,99 @@
+
+.create-template1 {
+	background: #fff;
+	min-height: 330px;
+	text-align: center;
+	line-height: 90px;
+	color: #000;
+}
+.create-template2 {
+	background: #0d8a2a;
+	min-height: 330px;
+	margin-top: 45px;
+	color: #fff;
+	text-align: center;
+	line-height: 90px;
+}
+.create-template3 {
+	background: #4a16b3;
+	min-height: 330px;
+	margin-top: 45px;
+	color: #fff;
+	text-align: center;
+	line-height: 82px;
+}
+.create-template4 {
+	background: #af3910;
+	min-height: 330px;
+	margin-top: 45px;
+	color: #fff;
+	text-align: center;
+	line-height: 94px;
+}
+.create-template5 {
+	background: #e1b710;
+	min-height: 330px;
+	margin-top: 45px;
+	text-align: center;
+	line-height: 104px;
+}
+.create-template6 {
+	background: #4e4b4b;
+	min-height: 330px;
+	margin-top: 45px;
+	text-align: center;
+	color: #fff;
+	line-height: 100px;
+}
+.create-template1 button {
+	background: #3e29b2;
+	background: -moz-linear-gradient(top, #3e29b2 0%, #be68d5 100%);
+	background: -webkit-linear-gradient(top, #3e29b2 0%,#be68d5 100%);
+	background: linear-gradient(to bottom, #3e29b2 0%,#be68d5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e29b2', endColorstr='#be68d5',GradientType=0 );
+	border: 0;
+	width: auto;
+	padding: 9px 33px;
+	font-size: 19px;
+	color: #fff;
+	cursor:pointer;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.create-template1 p span {
+  float: right;
+  padding-top: 13px;
+  padding-right: 18px;
+}
+.create-template1 {
+  background: transparent;
+  min-height: auto;
+  margin-top: 45px;
+  text-align: center;
+  line-height: 90px;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 14px;
+}
+.create-template1 p {
+  text-align: left;
+  padding-left: 18px;
+}
